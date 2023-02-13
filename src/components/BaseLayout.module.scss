@@ -29,6 +29,64 @@ footer {
   transition: all 400ms;
 }
 
+.light hr {
+  background-color: lightgray;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.dark hr {
+  background-color: #555;
+}
+
+.light textarea,
+.light input {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 1.5vh;
+  resize: none;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  background-color: #fff;
+  color: #333;
+}
+
+.light textarea:focus,
+.light input:focus {
+  border-color: cornflowerblue;
+  box-shadow: 2px 2px 8px rgba(100, 149, 237, 0.5);
+}
+
+.dark textarea,
+.dark input {
+  resize: none;
+  padding: 10px 15px;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 1.5vh;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #555;
+  box-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+  background-color: #444 !important;
+  color: #fff;
+}
+
+.dark textarea:focus,
+.dark input:focus {
+  border-color: #ddd;
+  box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
 
 //.dark {
 //  background-color: $dark;

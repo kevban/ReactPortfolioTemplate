@@ -105,7 +105,7 @@ export const info = {
         {
             title: "Bank.ly Personal Finance",
             description: "A budegting app that get transactions from real banks!",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            live: "https://bankly.kevban.com/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/kevban/bankly-front", // this should be a link to the **repository** of the project, where the code is hosted.
             image: banklyweb,
             skills: ['React js', 'Node js', 'Express', 'MongoDB', 'Redux', 'Material UI']
@@ -113,7 +113,7 @@ export const info = {
         {
             title: "Stock Valuator",
             description: "A web application that generate financial models for stocks!",
-            live: "https://paytonpierce.dev",
+            live: "https://stock-val-calc-production.up.railway.app/",
             source: "https://github.com/kevban/stock-val-calc",
             image: stockval,
             skills: ['Python', 'Flask', 'JavaScript', 'PostgreSQL', 'HTML', 'CSS', 'Bootstrap']
@@ -121,7 +121,7 @@ export const info = {
         {
             title: "Bank.ly Mobile",
             description: "The mobile version of Bank.ly for Android & IOS!",
-            live: "https://paytonpierce.dev",
+            live: "https://drive.google.com/file/d/1dAhRUrTcO8ZXP2lOYeQpzj9CanEKtdVm/view?usp=sharing",
             source: "https://github.com/kevban/bankly-mobile",
             image: banklymobile,
             skills: ['React Native', 'Redux']
@@ -129,7 +129,7 @@ export const info = {
         {
             title: "Papaya Game Dev",
             description: "Numerous pixel art 2D games made with C#.",
-            live: "https://paytonpierce.dev",
+            live: "https://mr-papaya.itch.io/",
             source: "https://github.com/kevban/papaya-gamedev",
             image: gamedev,
             skills: ['C#', 'Unity']
